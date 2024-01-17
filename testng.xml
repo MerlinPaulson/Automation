@@ -1,0 +1,11 @@
+<suite name="Test Automation Framework">
+	<test name="Automation Test">
+		<classes>
+			
+			<class	name="automation.TestAutomationFramework.test.RegisterTest" />
+			<class	name="automation.TestAutomationFramework.test.LoginTest"/>
+			<class	name="automation.TestAutomationFramework.test.FlightsTest"/>
+			
+		</classes>
+	</test>
+</suite>

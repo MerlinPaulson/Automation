@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Automation Framework]">
+  <test thread-count="5" name="Automation Test(failed)">
+    <classes>
+      <class name="automation.TestAutomationFramework.test.LoginTest">
+        <methods>
+          <include name="toTestLoginwithInValidUNameAndPswd"/>
+          <include name="setUp"/>
+          <include name="toTestValidLogin"/>
+          <include name="toTestLoginWithoutUsernameAndPassword"/>
+          <include name="destroyDriver"/>
+        </methods>
+      </class> <!-- automation.TestAutomationFramework.test.LoginTest -->
+      <class name="automation.TestAutomationFramework.test.FlightsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="destroyDriver"/>
+          <include name="testOnewayTrip_validAndInvalidDetials" invocation-numbers="0 1"/>
+          <include name="testTwoWayTrip_validAndInvalidDetials" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- automation.TestAutomationFramework.test.FlightsTest -->
+    </classes>
+  </test> <!-- Automation Test(failed) -->
+</suite> <!-- Failed suite [Test Automation Framework] -->
