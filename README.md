@@ -1,4 +1,4 @@
 # Sample Automation
 
-Tech stack: Java, Selenium WebDriver, TestNG
+Tech stack: Java, Selenium WebDriver, TestNG, 
 IDE : Eclipse
